@@ -141,3 +141,42 @@ html, body {
 	95% {text-indent: -3000px;} 
 	100% {text-indent: -3000px;} 
 }
+
+--------------------CUSTOM FIELDS--------------------------
+
+{
+    "topText": {
+        "label": "Top Text Area",
+        "type": "textfield",
+        "value": "{name}"
+    },
+    "bottomText": {
+        "label": "Bottom Text Area",
+        "type": "textfield",
+        "value": "New follower"
+    },
+    "topColor": {
+        "label": "Top Text Color",
+        "type": "colorpicker",
+        "value": "#247AF7"
+    },
+    "bottomColor": {
+        "label": "Bottom Text Color",
+        "type": "colorpicker",
+        "value": "#ffffff"
+    },
+    "backgroundColor": {
+        "label": "Background Color",
+        "type": "colorpicker",
+        "value": "#23324b"
+    },
+    "bgColorOpacity": {
+        "label": "Background Color Opacity (higher is solid)",
+        "type": "slider",
+        "name": "",
+        "value": "80",
+        "min": 0,
+        "max": 100,
+        "steps": 1
+    }
+}
